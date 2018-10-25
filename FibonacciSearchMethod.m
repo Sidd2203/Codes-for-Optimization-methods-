@@ -36,14 +36,8 @@ L=(fib(n-k+2)/fib(n+2))*d;
  x2=b-L;
  if f(x1)<f(x2)
      b=x2;
-
-     fx1=f(x1);
-     fx2=f(x2);
  else
      a=x1;
-     
-     fx1=f(x1);
-     fx2=f(x2);
  end
   k=k+1;
  end
