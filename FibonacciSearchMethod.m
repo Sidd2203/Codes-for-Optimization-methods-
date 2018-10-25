@@ -5,7 +5,7 @@
 % Date: 25th October, 2018
 clear
 clc
-format short
+format short % Modify the format as needed  
 syms x
 % Input the function to be minimized
 n=input('no of iterations\n');
