@@ -34,8 +34,7 @@ while abs(b-a)> eps && k<n % Termination condition
     else
         a=x1;
         x1=x2;
-        x2=a+tau*(b-a);
-        
+        x2=a+tau*(b-a);  
         fx1=f(x1);
         fx2=f(x2);
     end
