@@ -5,7 +5,7 @@
 % Date: 24th October, 2018
 clc
 clear
-format short
+format short % Modify the format as needed
 syms x
 % Input the function to be minimized
 f1=input('Enter the function in x: ');
@@ -14,7 +14,7 @@ f=matlabFunction(f1);
 a=input('Enter the value of lower limit a\n');
 b=input('Enter the value of upper limit b\n');
 n=input('Enter the number of iterations\n');
-eps=0.00001;                                     
+eps=0.00001;       % Set the value as required                            
 tau=((sqrt(5)-1)/2);  
 % Initialization
 k=0;  
